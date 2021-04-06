@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+
+body{
+    /* overflow: hidden; */
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+}
+
+/*--navigation --*/
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: (0, 0, 0, 0.6) !important;
+}
+
+.navbar-brand img{
+    height: 2rem;
+    color: whitesmoke;
+}
+.navbar-nav li{
+    padding-right: .7rem
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: whitesmoke;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hoover{
+    color: #09917c;
+}
+
+/*--landing page--*/
+.home-inner{
+    background-image: linear-gradient(to right,rgba(20, 2, 2, 0), rgba(0, 0, 2, 0.657)),url('./images/big-11.jpg');
+    height: 5rem;
+    padding-top: 50%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: whitesmoke;
+    letter-spacing: 1rem;
+    margin-left: 12rem !important;
+    margin-top: 1rem;
+    }
+   
+    .caption h1{
+        font-size: 3.8rem;
+        font-weight: 900;
+        letter-spacing: 1.5rem;
+        padding-top: 1rem;
+
+        }
+        .caption p{
+            letter-spacing: normal;
+            margin-top: 1rem;
+        }   
+        .caption h3{
+            letter-spacing: .4rem;
+        }
+
+      .btn{
+          letter-spacing: normal;
+          /* background-color: blue;
+          border-radius: none; */
+          margin-top: 5.5rem;
+      }
+
+.sect1{
+        margin-top: 10rem;
+        margin-left: 12rem;
+        padding-bottom: 4rem;
+}
+
+
+
+/* .ect2{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0), rgba(0, 0, 2, 0.657)), url(/images/big-12.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 5rem;
+    padding-top: 50%;
+} */
+
+.mylogo{
+    background-image:linear-gradient(to right,rgba(0, 0, 0, 0), rgba(0, 0, 2, 0.657)), url(/images/big-12.jpg);
+width: 100%;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+color: whitesmoke;
+margin-right: 15rem !important;
+height: 18rem;
+}
+
+.trim{
+
+}
+
+
+.cool{
+    margin-left: 34.3rem;
+    margin-top: -260px;
+}
+
+.view{
+    border: 1.5px solid darkgrey !important;
+}
+
+li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.nav{
+    justify-content: center;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+
+.COP{
+    /* text-align: center; */
+    margin-top: 7rem;
+    font-family: sans-serif;
+    font-size: 3rem;
+}
+.treat{
+    margin-top: 6rem !important;
+    font-family: sans-serif;
+    font-size: 2reem;
+}
+
+       
